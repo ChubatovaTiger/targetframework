@@ -4,11 +4,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <TargetFramework>net452</TargetFramework>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
-    <TargetFramework>netstandard1.6</TargetFramework>
-    <TargetFramework>netcore45</TargetFramework>
-    <TargetFramework>wpa81</TargetFramework>
-    
+
     
   </PropertyGroup>
 
