@@ -4,6 +4,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>net452</TargetFramework>
 
     
   </PropertyGroup>
