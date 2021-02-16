@@ -4,7 +4,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
 
-    <TargetFramework>net5.0-ios14.0</TargetFramework>
+    <TargetFramework>net452</TargetFramework>
 
 
     
