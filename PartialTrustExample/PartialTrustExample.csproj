@@ -4,7 +4,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
 
-    <TargetFramework>netcore45</TargetFramework>
+    <TargetFramework>netcore</TargetFramework>
 
 
     
