@@ -4,7 +4,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
 
-    <TargetFramework>netstandard1.1</TargetFramework>
+    <TargetFramework>netstandard1.2</TargetFramework>
 
 
     
