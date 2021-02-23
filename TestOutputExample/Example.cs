@@ -1,10 +1,10 @@
 using System;
 using Xunit;
 
-static class MyTestClass
+public class MyTestClass
 {
     [Fact]
-    static void MyTestMethod() 
+    public void MyTestMethod() 
     {
         Assert.Equal(5, 4);
         Colsole.WriteLine("a from console")
