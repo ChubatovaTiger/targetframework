@@ -1,13 +1,14 @@
 using System;
 using Xunit;
 
-public class UnitTest1
+static class MyTestClass
+{
+    [Fact]
+    static void MyTestMethod() 
     {
-        [Fact]
         Assert.Equal(5, 4);
         Colsole.WriteLine("a from console")
-        {
-
-        }
     }
+}
+
 
