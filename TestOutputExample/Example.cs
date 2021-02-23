@@ -7,7 +7,7 @@ public class MyTestClass
     public void MyTestMethod() 
     {
         Assert.Equal(5, 4);
-        Colsole.WriteLine("a from console")
+        Colsole.WriteLine("a from console");
     }
 }
 
