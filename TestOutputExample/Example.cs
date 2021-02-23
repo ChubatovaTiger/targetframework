@@ -1,19 +1,14 @@
-﻿using System;
+using System;
 using Xunit;
-using Xunit.Abstractions;
 
-public class Example
+namespace MyFirstUnitTests
 {
-    ITestOutputHelper output;
-
-    public Example(ITestOutputHelper output)
+    public class UnitTest1
     {
-        this.output = output;
-    }
+        [Fact]
+        Assert.Equal(5, 4);
+        {
 
-    [Fact]
-    public void TestThis()
-    {
-        output.WriteLine("I'm inside the test!");
+        }
     }
 }
