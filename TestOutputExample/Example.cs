@@ -7,6 +7,7 @@ namespace MyFirstUnitTests
     {
         [Fact]
         Assert.Equal(5, 4);
+        output.Write("a")
         {
 
         }
