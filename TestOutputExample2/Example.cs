@@ -8,6 +8,6 @@ public class MyTestClass2
     public void MyTestMethod2() 
     {
         //Assert.Equal(5, 4);
-        System.Threading.Thread.Sleep(15000);
+        System.Threading.Thread.Sleep(25000);
     }
 }
