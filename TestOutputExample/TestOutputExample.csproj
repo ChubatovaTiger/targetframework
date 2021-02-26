@@ -4,6 +4,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <TargetFramework>netcoreapp3.0</TargetFramework>
+    <TargetFramework>net50</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
