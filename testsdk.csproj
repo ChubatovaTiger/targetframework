@@ -3,7 +3,7 @@
   <PropertyGroup>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
-    <TargetFramework>net40</TargetFramework>
+    <TargetFrameworks>net40;netcoreapp3.1</TargetFrameworks>
 
 
 
