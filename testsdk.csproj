@@ -3,7 +3,7 @@
   <PropertyGroup>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
-    <TargetFramework>netstandard2.1</TargetFramework>
+    <TargetFramework>net46</TargetFramework>
 
 
 
