@@ -2,12 +2,25 @@ using System;
 using Xunit;
 using System.Threading;
 
-public class MyTestClass2
+namespace MyFirstUnitTests
 {
-    [Fact]
-    public void MyTestMethod2() 
+    public class UnitTest1
     {
-        //Assert.Equal(5, 4);
-        System.Threading.Thread.Sleep(25000);
+        [Fact]
+        public void PassingTest()
+        {
+            Assert.Equal(4, Add(2, 2));
+        }
+
+        [Fact]
+        public void FailingTest()
+        {
+            Assert.Equal(5, Add(2, 2));
+        }
+
+        int Add(int x, int y)
+        {
+            return x + y;
+        }
     }
 }
