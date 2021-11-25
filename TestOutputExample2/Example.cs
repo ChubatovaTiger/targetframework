@@ -2,12 +2,12 @@ using System;
 using Xunit;
 using System.Threading;
 
-namespace MyFirstUnitTests
+namespace MyFirstUnitTests_proj1
 {
-    public class UnitTest1
+    public class UnitTest_proj1
     {
         [Fact]
-        public void PassingTest()
+        public void PassingTest_proj1()
         {
             System.Threading.Thread.Sleep(2500);
             Assert.Equal(4, Add(2, 2));
@@ -15,7 +15,7 @@ namespace MyFirstUnitTests
         }
 
         [Fact]
-        public void FailingTest()
+        public void FailingTest_proj1()
         {
             System.Threading.Thread.Sleep(4000);
             Assert.Equal(5, Add(2, 2));
@@ -30,7 +30,7 @@ namespace MyFirstUnitTests
         
          [Fact]
         
-        public void FailingTest2()
+        public void FailingTest2_proj1()
         {
             System.Threading.Thread.Sleep(4000);
             Assert.Equal(5, Add(2, 2));
@@ -38,7 +38,7 @@ namespace MyFirstUnitTests
         }
 
          [Fact]
-         public void FailingTest3()
+         public void FailingTest3_proj1()
         {
             System.Threading.Thread.Sleep(5000);
             Assert.Equal(5, Add(2, 2));
@@ -46,7 +46,7 @@ namespace MyFirstUnitTests
         }
 
         [Fact]
-        public void FailingTest4()
+        public void FailingTest4_proj1()
         {
             System.Threading.Thread.Sleep(1000);
             Assert.Equal(5, Add(2, 2));
