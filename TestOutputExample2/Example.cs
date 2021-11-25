@@ -37,11 +37,7 @@ namespace MyFirstUnitTests
             
         }
 
-        int Add(int x, int y)
-        {
-           
-            return x + y;
-        }
+
          public void FailingTest3()
         {
             System.Threading.Thread.Sleep(50000);
@@ -49,11 +45,7 @@ namespace MyFirstUnitTests
             
         }
 
-        int Add(int x, int y)
-        {
-           
-            return x + y;
-        }
+
         public void FailingTest4()
         {
             System.Threading.Thread.Sleep(10000);
@@ -61,11 +53,7 @@ namespace MyFirstUnitTests
             
         }
 
-        int Add(int x, int y)
-        {
-           
-            return x + y;
-        }
+
     }
 
 }
