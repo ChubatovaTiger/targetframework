@@ -37,7 +37,7 @@ namespace MyFirstUnitTests
             
         }
 
-
+         [Fact]
          public void FailingTest3()
         {
             System.Threading.Thread.Sleep(50000);
@@ -45,7 +45,7 @@ namespace MyFirstUnitTests
             
         }
 
-
+        [Fact]
         public void FailingTest4()
         {
             System.Threading.Thread.Sleep(10000);
