@@ -3,7 +3,7 @@
   <PropertyGroup>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
-    <TargetFrameworks>netcoreapp3.0;net5.0</TargetFrameworks>
+    <TargetFrameworks>net5.0</TargetFrameworks>
   </PropertyGroup>
 
   <ItemGroup>
