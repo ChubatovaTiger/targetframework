@@ -2,8 +2,36 @@ using System;
 using Xunit;
 using System.Threading;
 
+            
 namespace MyFirstUnitTests_proj1
 {
+    
+    
+  public class ParameterizedTests
+{
+   public bool IsOddNumber(int number)
+   {
+       return number % 2 != 0;
+   }
+
+  [Theory]
+  [InlineData(5, 1, 3, 9)]
+  [InlineData(7, 1, 5, 3)]
+  public void AllNumbers_AreOdd_WithInlineData(int a, int b, int c, int d)
+  {
+      Assert.True(IsOddNumber(a));
+      Assert.True(IsOddNumber(b));
+      Assert.True(IsOddNumber(c));
+      Assert.True(IsOddNumber(d));
+  }
+}
+    
+    
+    
+    
+    
+    
+    
     public class UnitTest_proj1
     {
         [Fact]
@@ -11,7 +39,6 @@ namespace MyFirstUnitTests_proj1
         {
             System.Threading.Thread.Sleep(10000);
             Assert.Equal(4, Add(2, 2));
-            
         }
 
         [Fact]
