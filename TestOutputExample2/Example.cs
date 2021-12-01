@@ -51,7 +51,7 @@ namespace MyFirstUnitTests_proj1
 
         int Add(int x, int y)
         {
-            System.Threading.Thread.Sleep(10000);
+            System.Threading.Thread.Sleep(100);
             return x + y;
         }
         
@@ -59,7 +59,7 @@ namespace MyFirstUnitTests_proj1
         
         public void FailingTest2_proj1()
         {
-            System.Threading.Thread.Sleep(10000);
+            System.Threading.Thread.Sleep(100);
             Assert.Equal(5, Add(2, 2));
             
         }
@@ -67,7 +67,7 @@ namespace MyFirstUnitTests_proj1
          [Fact]
          public void FailingTest3_proj1()
         {
-            System.Threading.Thread.Sleep(10000);
+            System.Threading.Thread.Sleep(100);
             Assert.Equal(5, Add(2, 2));
             
         }
@@ -75,7 +75,7 @@ namespace MyFirstUnitTests_proj1
         [Fact]
         public void FailingTest4_proj1()
         {
-            System.Threading.Thread.Sleep(10000);
+            System.Threading.Thread.Sleep(100);
             Assert.Equal(5, Add(2, 2));
             
         }
