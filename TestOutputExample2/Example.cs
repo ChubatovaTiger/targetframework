@@ -8,7 +8,18 @@ namespace MyFirstUnitTests_proj1
 {
             
 
+public class CalculatorTestData : IEnumerable<object[]>
+{
+    public IEnumerator<object[]> GetEnumerator()
+    {
+        yield return new object[] { 1, 2, 3 };
+        yield return new object[] { -4, -6, -10 };
+        yield return new object[] { -2, 2, 0 };
+        yield return new object[] { int.MinValue, -1, int.MaxValue };
+    }
 
+    IEnumerator IEnumerable.GetEnumerator() => GetEnumerator();
+}
 
     
   public class ParameterizedTests
@@ -28,6 +39,24 @@ namespace MyFirstUnitTests_proj1
       Assert.True(IsOddNumber(c));
       Assert.True(false, d);
   }
+              
+              
+ [Theory]
+[ClassData(typeof(CalculatorTestData))]
+public void CanAddTheoryClassData(int value1, int value2, int expected)
+{
+    var calculator = new Calculator();
+
+    var result = calculator.Add(value1, value2);
+
+    Assert.Equal(expected, result);
+}
+              
+              
+    
+              
+              
+              
 }
     
  
