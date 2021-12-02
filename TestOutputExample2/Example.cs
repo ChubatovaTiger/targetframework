@@ -15,9 +15,9 @@ namespace MyFirstUnitTests_proj1
    }
 
   [Theory]
-  [InlineData(5, 1, 3, 9)]
-  [InlineData(7, 1, 5, 3)]
-  public void AllNumbers_AreOdd_WithInlineData(int a, int b, int c, int d)
+  [InlineData(5, 1, 3, "a"]
+  [InlineData(7, 1, 5, "b")]
+  public void AllNumbers_AreOdd_WithInlineData(int a, int b, int c, string d)
   {
       Assert.True(IsOddNumber(a));
       Assert.True(IsOddNumber(b));
