@@ -22,7 +22,7 @@ namespace MyFirstUnitTests_proj1
       Assert.True(IsOddNumber(a));
       Assert.True(IsOddNumber(b));
       Assert.True(IsOddNumber(c));
-      Assert.True(IsOddNumber(d));
+      Assert.True(false, d);
   }
 }
     
